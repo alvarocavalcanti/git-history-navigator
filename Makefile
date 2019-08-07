@@ -8,7 +8,7 @@ go-to-first: ## Goes to the first commit
 	echo "bar"
 
 go-to-last: ## Goes to the last commit
-	echo "foo"
+	echo "bar"
 
 go-to-next: ## Goes to the next commit
 	echo "foo"
