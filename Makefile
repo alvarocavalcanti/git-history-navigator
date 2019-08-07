@@ -11,7 +11,7 @@ go-to-last: ## Goes to the last commit
 	echo "bar"
 
 go-to-next: ## Goes to the next commit
-	echo "foo"
+	echo "bar"
 
 go-to-previous: ## Goes to the previous commit
 	echo "foo"
