@@ -5,7 +5,7 @@ help: ## Displays help
 }' $(MAKEFILE_LIST) | sort
 
 go-to-first: ## Goes to the first commit
-	echo "foo"
+	echo "bar"
 
 go-to-last: ## Goes to the last commit
 	echo "foo"
