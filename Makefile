@@ -14,4 +14,4 @@ go-to-next: ## Goes to the next commit
 	echo "bar"
 
 go-to-previous: ## Goes to the previous commit
-	echo "bar"
+	git checkout HEAD~1
