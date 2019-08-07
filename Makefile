@@ -5,10 +5,10 @@ help: ## Displays help
 }' $(MAKEFILE_LIST) | sort
 
 go-to-first: ## Goes to the first commit
-	echo "bar"
+	git rev-list --max-parents=0 HEAD | xargs git checkout
 
 go-to-last: ## Goes to the last commit
-	echo "bar"
+	git rev-list --topo-order --max-count=1 HEAD | xargs git checkout
 
 go-to-next: ## Goes to the next commit
 	echo "bar"
